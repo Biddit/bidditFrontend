@@ -1,5 +1,5 @@
-import React, { useEffect, useReducer, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { useEffect, useReducer, useState } from "react";
+import { Link } from "react-router-dom";
 import process from "process";
 import logo from "../../../assets/images/bg/biddit.png";
 import { useLocation } from "react-router-dom";
@@ -164,7 +164,7 @@ function Header2() {
                   Search
                 </button>
               </div>
-              b
+              
             </form>
           </div>
         </div>
