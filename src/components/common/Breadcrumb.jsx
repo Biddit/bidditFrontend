@@ -16,11 +16,11 @@ function Breadcrumb(props) {
         </div>
       </div> */}
       <div className="relative h-screen">
-        <img
+        {/* <img
           src={logo}
           alt="Background"
           className="object-cover w-full h-full"
-        />
+        /> */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#210D42] via-[#210D42]/80 to-[#f57d1f] opacity-75"></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="pl-8 text-white">

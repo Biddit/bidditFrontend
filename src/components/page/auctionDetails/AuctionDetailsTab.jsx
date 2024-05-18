@@ -29,37 +29,13 @@ function AuctionDetailsTab() {
                 aria-controls="pills-home"
                 aria-selected="true"
               >
-                Description
-              </button>
-            </li>
-            <li className="nav-item" role="presentation">
-              <button
-                className="nav-link details-tab-btn"
-                id="pills-bid-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#pills-bid"
-                type="button"
-                role="tab"
-                aria-controls="pills-bid"
-                aria-selected="false"
-              >
                 Biding History
               </button>
             </li>
             <li className="nav-item" role="presentation">
-              <button
-                className="nav-link details-tab-btn"
-                id="pills-contact-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#pills-contact"
-                type="button"
-                role="tab"
-                aria-controls="pills-contact"
-                aria-selected="false"
-              >
-                Other Auction
-              </button>
+              
             </li>
+            <li className="nav-item" role="presentation"></li>
           </ul>
           <div className="tab-content" id="pills-tabContent">
             <div
@@ -71,42 +47,120 @@ function AuctionDetailsTab() {
               aria-labelledby="pills-home-tab"
             >
               <div className="describe-content">
-                <h4>How can have anything you ant in life if you ?</h4>
-                <p className="para">
-                  If you’ve been following the crypto space, you’ve likely heard
-                  of Non-Fungible Tokens (Biddings), more popularly referred to
-                  as ‘Crypto Collectibles.’ The world of Biddings is growing
-                  rapidly. It seems there is no slowing down of these assets as
-                  they continue to go up in price. This growth comes with the
-                  opportunity for people to start new businesses to create and
-                  capture value. The market is open for players in every kind of
-                  field. Are you a collector.
-                </p>
-                <p className="para">
-                  But getting your own auction site up and running has always
-                  required learning complex coding langua ges, or hiring an
-                  expensive design firm for thousands of dollars and months of
-                  work.
-                </p>
-                <ul className="describe-list">
-                  <li>
-                    <Link to={"#"}>
-                      Amet consectetur adipisicing elit. Maxime reprehenderit
-                      quaerat, velit rem atque vel impedit! Expensive Design.
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"#"}>
-                      Consectetur adipisicing elit. Maxime reprehenderit quaerat
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"#"}>
-                      Fuga magni veritatis ad temporibus atque adipisci nisi
-                      rerum...
-                    </Link>
-                  </li>
-                </ul>
+                <div className="bid-list-area">
+                  <ul className="bid-list">
+                    <li>
+                      <div className="row d-flex align-items-center">
+                        <div className="col-7">
+                          <div className="bidder-area">
+                            <div className="bidder-img">
+                              <img alt="images" src={bidder} />
+                            </div>
+                            <div className="bidder-content">
+                              <Link to={"#"}>
+                                <h6>Robart FOX</h6>
+                              </Link>
+                              <p>24.50 ETH</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-5 text-end">
+                          <div className="bid-time">
+                            <p>4 Hours Ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="row d-flex align-items-center">
+                        <div className="col-7">
+                          <div className="bidder-area">
+                            <div className="bidder-img">
+                              <img alt="images" src={bidder} />
+                            </div>
+                            <div className="bidder-content">
+                              <Link to={"#"}>
+                                <h6>Jane Cooper</h6>
+                              </Link>
+                              <p>224.5 ETH</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-5 text-end">
+                          <div className="bid-time">
+                            <p>5 Hours Ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="row d-flex align-items-center">
+                        <div className="col-7">
+                          <div className="bidder-area">
+                            <div className="bidder-img">
+                              <img alt="images" src={bidder} />
+                            </div>
+                            <div className="bidder-content">
+                              <Link to={"#"}>
+                                <h6>Guy Hawkins</h6>
+                              </Link>
+                              <p>34.5 ETH</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-5 text-end">
+                          <div className="bid-time">
+                            <p>6 Hours 45 minutes Ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="row d-flex align-items-center">
+                        <div className="col-7">
+                          <div className="bidder-area">
+                            <div className="bidder-img">
+                              <img alt="images" src={bidder} />
+                            </div>
+                            <div className="bidder-content">
+                              <Link to={"#"}>
+                                <h6>Robart FOX</h6>
+                              </Link>
+                              <p>24.50 ETH</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-5 text-end">
+                          <div className="bid-time">
+                            <p>4 Hours Ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="row d-flex align-items-center">
+                        <div className="col-7">
+                          <div className="bidder-area">
+                            <div className="bidder-img">
+                              <img alt="images" src={bidder} />
+                            </div>
+                            <div className="bidder-content">
+                              <Link to={"#"}>
+                                <h6>Robart FOX</h6>
+                              </Link>
+                              <p>24.50 ETH</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-5 text-end">
+                          <div className="bid-time">
+                            <p>4 Hours Ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div
@@ -387,7 +441,7 @@ function AuctionDetailsTab() {
             </div>
           </div>
         </div>
-        <div className="col-lg-4">
+        {/* <div className="col-lg-4">
           <div className="blog-sidebar">
             <div
               className="sidebar-banner wow fadeInUp"
@@ -405,7 +459,7 @@ function AuctionDetailsTab() {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
