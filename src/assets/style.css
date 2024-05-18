@@ -4301,7 +4301,7 @@ header.style-3 .mobile-menu-form input[type="text"] {
 }
 
 .testimonial-section {
-  background-image: url("../../public/images//bg/client-bg.png");
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6138,7 +6138,7 @@ footer.style-3 .footer-bottom .footer-logo-list li:hover img {
   color: rgba(31, 34, 48, 0.1);
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: ;
+
   line-height: 1;
   transition: all 0.42s ease;
 }
@@ -7662,7 +7662,7 @@ live-auction Page
       rgba(31, 34, 48, 0.75),
       rgba(31, 34, 48, 0.75)
     ),
-    url("../../public/images//blog/banner-card-img.png");
+    url("../assets/images//blog/banner-card-img.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;

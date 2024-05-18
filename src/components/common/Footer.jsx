@@ -1,18 +1,14 @@
-import { useEffect } from "react";
+
 import logo from "../../assets/images/bg/biddit.png";
 import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { BsArrowRightShort } from "react-icons/bs";
 
-import WOW from "wowjs";
+
+
 const transition = "transition-all ease-in-out duration-500";
 function Footer() {
-  useEffect(() => {
-    new WOW.WOW({
-      live: false,
-    }).init();
-  }, []);
+  
   // const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <>
